@@ -1,0 +1,6 @@
+name = input("Enter the File Name:")
+file = open(name, "r")
+Byte = int(input("Enter the N Bytes:"))
+data = file.read(Byte)
+print(data)
+file.close()

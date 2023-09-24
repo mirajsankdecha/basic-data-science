@@ -1,0 +1,2 @@
+I am Writing the Data in file using input function 
+Hello world !!

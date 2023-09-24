@@ -1,0 +1,20 @@
+import pandas as pd 
+
+df = pd.read_csv("mycsv.csv") 
+ndf = df.head(2) 
+print(ndf) 
+
+print(ndf.shape) 
+print("$"*50) 
+print(ndf.size) 
+print("$"*50) 
+print(ndf.index) 
+print("$"*50) 
+print(ndf.columns) 
+print("$"*50) 
+print(ndf.info()) 
+print("$"*50) 
+print(ndf.describe()) 
+print("$"*50) 
+print(ndf.count()) 
+print("$"*50)  

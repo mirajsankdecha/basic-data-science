@@ -1,0 +1,5 @@
+file = open("File_2.txt", "r")
+rep = file.read().replace(" ", "")
+len = len(rep)
+print("Length is:", len)
+file.close()

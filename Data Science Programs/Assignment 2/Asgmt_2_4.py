@@ -1,0 +1,5 @@
+filename = input("Enter the File Name which you want to Append: ")
+f = open(filename, "a")
+data_append = input("Enter the Data which will append in the File :")
+f.write(data_append)
+f.close()
